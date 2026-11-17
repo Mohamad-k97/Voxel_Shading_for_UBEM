@@ -1,0 +1,17 @@
+{
+  "cooling_kwh": 6.9159681294444155,
+  "free_float": false,
+  "heating_kwh": 2526.4593698040985,
+  "indoor_max_c": 26.000000000000004,
+  "mass": "heavy",
+  "native_shortwave_zero_driver": true,
+  "native_solar_kwh": 0.0,
+  "operative_max_c": 25.66910194333469,
+  "overheat_hours_26": 0,
+  "peak_cooling_w": 410.8971569560238,
+  "peak_heating_w": 834.2336253897341,
+  "run_s": 1.095837061999191,
+  "schedule_solar_kwh": 1088.4593202024412,
+  "steps_per_hour": 6,
+  "warnings": 0
+}

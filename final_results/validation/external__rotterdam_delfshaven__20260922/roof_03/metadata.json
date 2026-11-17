@@ -1,0 +1,39 @@
+{
+  "area_m2": 35.112229593570405,
+  "building": 227,
+  "candidate_casters": 5864,
+  "center": [
+    499.99500000000114,
+    383.2138000000035,
+    15.349599999999986
+  ],
+  "columns": [
+    "raw",
+    "proxy",
+    "radius",
+    "topk",
+    "exact_marginal_heuristic_union",
+    "lobe_float",
+    "lobe_quantized"
+  ],
+  "elapsed_s": 2.953145276002033,
+  "fitting_s": 1.1105071219317324,
+  "kind": "pitched_roof",
+  "label": "roof_03",
+  "normal": [
+    0.1713427362536376,
+    0.7122435446272968,
+    0.6806987585340966
+  ],
+  "positive_lobes": 144,
+  "prepare_proxy_s": 0.08575792699775775,
+  "prepare_raw_s": 0.08575792699775775,
+  "proxy_casters": 15484,
+  "raw_casters": 15484,
+  "raw_median_query_s": 0.0008174489994416945,
+  "retained_casters": 160,
+  "scene": "external__rotterdam_delfshaven__20260922",
+  "sid": 4525,
+  "split": "external",
+  "terrain": "rotterdam_delfshaven"
+}

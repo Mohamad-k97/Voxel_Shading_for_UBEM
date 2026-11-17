@@ -1,0 +1,39 @@
+{
+  "area_m2": 96.10349774915234,
+  "building": 59,
+  "candidate_casters": 632,
+  "center": [
+    325.46630613105464,
+    274.0317460690843,
+    5.052179209008196
+  ],
+  "columns": [
+    "raw",
+    "proxy",
+    "radius",
+    "topk",
+    "exact_marginal_heuristic_union",
+    "lobe_float",
+    "lobe_quantized"
+  ],
+  "elapsed_s": 0.11243296099928557,
+  "fitting_s": 0.7166047059818084,
+  "kind": "pitched_roof",
+  "label": "roof_06",
+  "normal": [
+    -0.0773147207004078,
+    0.1896113418190836,
+    0.9788104888161878
+  ],
+  "positive_lobes": 119,
+  "prepare_proxy_s": 0.00483877599981497,
+  "prepare_raw_s": 0.007104865999281174,
+  "proxy_casters": 939,
+  "raw_casters": 1265,
+  "raw_median_query_s": 3.1876999855739996e-05,
+  "retained_casters": 160,
+  "scene": "validation__suburban__317",
+  "sid": 471,
+  "split": "validation",
+  "terrain": "suburban"
+}

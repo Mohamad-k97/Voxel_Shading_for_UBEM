@@ -1,0 +1,6 @@
+{
+  "maximum_prediction_change": 2.4462321073892568e-05,
+  "normal_header_dtype": "float32",
+  "receivers": 256,
+  "scientific_selection_unchanged": true
+}

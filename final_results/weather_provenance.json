@@ -1,0 +1,18 @@
+{
+  "hours": 8760,
+  "metadata": {
+    "TZ": 1.0,
+    "WMO_code": "unknown",
+    "altitude": 14.0,
+    "city": "unknown",
+    "country": "unknown",
+    "data_type": "ECMWF/ERA",
+    "latitude": 51.9225,
+    "loc": "LOCATION",
+    "longitude": 4.4792,
+    "state-prov": "-"
+  },
+  "solar_time": "hour midpoint; local standard time UTC+1; year 2021; pvlib solarposition.get_solarposition",
+  "source": "European Commission JRC PVGIS v5.3 TMY API; EPW",
+  "url": "https://re.jrc.ec.europa.eu/api/v5_3/tmy?lat=51.9225&lon=4.4792&outputformat=epw"
+}

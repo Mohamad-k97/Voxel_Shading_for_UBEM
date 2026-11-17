@@ -1,0 +1,39 @@
+{
+  "area_m2": 194.12274589288342,
+  "building": 20,
+  "candidate_casters": 103,
+  "center": [
+    224.81375071968174,
+    23.046221790449103,
+    63.51955529054785
+  ],
+  "columns": [
+    "raw",
+    "proxy",
+    "radius",
+    "topk",
+    "exact_marginal_heuristic_union",
+    "lobe_float",
+    "lobe_quantized"
+  ],
+  "elapsed_s": 0.06716294100260711,
+  "fitting_s": 0.1292089219969057,
+  "kind": "pitched_roof",
+  "label": "roof_02",
+  "normal": [
+    0.023357621078347348,
+    -0.1664746433512374,
+    0.9857690473222613
+  ],
+  "positive_lobes": 24,
+  "prepare_proxy_s": 0.0007755270016787108,
+  "prepare_raw_s": 0.0012373800018394832,
+  "proxy_casters": 110,
+  "raw_casters": 177,
+  "raw_median_query_s": 7.030999768176116e-06,
+  "retained_casters": 103,
+  "scene": "validation__tall_buildings__211",
+  "sid": 107,
+  "split": "validation",
+  "terrain": "tall_buildings"
+}

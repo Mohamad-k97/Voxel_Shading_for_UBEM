@@ -1,0 +1,45 @@
+{
+  "cases": [
+    {
+      "actual": 0.3,
+      "expected": 0.3,
+      "test": "finite_receiver_centroid_counterexample"
+    },
+    {
+      "actual": 0.0,
+      "expected": 0.0,
+      "test": "rear_caster_rejected"
+    },
+    {
+      "actual": 0.0999999999,
+      "expected": 0.1,
+      "test": "partial_halfspace_crossing"
+    },
+    {
+      "actual": 0.3,
+      "expected": 0.3,
+      "test": "duplicate_shadow_union"
+    },
+    {
+      "actual": 0.4,
+      "expected": 0.4,
+      "test": "normal_incidence"
+    },
+    {
+      "actual": 0.0,
+      "expected": 0.0,
+      "test": "backface"
+    },
+    {
+      "actual": 0.3,
+      "expected": 0.3,
+      "test": "translation_invariance"
+    },
+    {
+      "actual": 0.2999267578125,
+      "expected": 0.3,
+      "test": "independent_Embree_counterexample"
+    }
+  ],
+  "passed": 8
+}

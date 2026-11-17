@@ -1,0 +1,12 @@
+{
+  "aggregation_version": "frechet_bounds_v2",
+  "created": "2026-09-22T10:40:15Z",
+  "final_data_not_used": true,
+  "gamma": 0.6,
+  "kernel": "biweight",
+  "radius_knee_m": 200.0,
+  "radius_m": 250.0,
+  "selection_objective": "equal-receiver mean active MAE; four calibration morphologies, four walls and four roofs each",
+  "topk": 160,
+  "topk_knee": 112
+}

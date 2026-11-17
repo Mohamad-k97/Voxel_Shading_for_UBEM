@@ -1,0 +1,492 @@
+{
+  "Building": {
+    "Controlled test cell": {
+      "loads_convergence_tolerance_value": 0.04,
+      "maximum_number_of_warmup_days": 50,
+      "minimum_number_of_warmup_days": 6,
+      "north_axis": 0,
+      "solar_distribution": "MinimalShadowing",
+      "temperature_convergence_tolerance_value": 0.2,
+      "terrain": "City"
+    }
+  },
+  "BuildingSurface:Detailed": {
+    "East": {
+      "construction_name": "Envelope",
+      "number_of_vertices": 4,
+      "outside_boundary_condition": "Outdoors",
+      "sun_exposure": "SunExposed",
+      "surface_type": "Wall",
+      "vertices": [
+        {
+          "vertex_x_coordinate": 5,
+          "vertex_y_coordinate": 0,
+          "vertex_z_coordinate": 3
+        },
+        {
+          "vertex_x_coordinate": 5,
+          "vertex_y_coordinate": 0,
+          "vertex_z_coordinate": 0
+        },
+        {
+          "vertex_x_coordinate": 5,
+          "vertex_y_coordinate": 5,
+          "vertex_z_coordinate": 0
+        },
+        {
+          "vertex_x_coordinate": 5,
+          "vertex_y_coordinate": 5,
+          "vertex_z_coordinate": 3
+        }
+      ],
+      "wind_exposure": "WindExposed",
+      "zone_name": "Cell"
+    },
+    "Floor": {
+      "construction_name": "Envelope",
+      "number_of_vertices": 4,
+      "outside_boundary_condition": "Adiabatic",
+      "sun_exposure": "NoSun",
+      "surface_type": "Floor",
+      "vertices": [
+        {
+          "vertex_x_coordinate": 0,
+          "vertex_y_coordinate": 0,
+          "vertex_z_coordinate": 0
+        },
+        {
+          "vertex_x_coordinate": 0,
+          "vertex_y_coordinate": 5,
+          "vertex_z_coordinate": 0
+        },
+        {
+          "vertex_x_coordinate": 5,
+          "vertex_y_coordinate": 5,
+          "vertex_z_coordinate": 0
+        },
+        {
+          "vertex_x_coordinate": 5,
+          "vertex_y_coordinate": 0,
+          "vertex_z_coordinate": 0
+        }
+      ],
+      "wind_exposure": "NoWind",
+      "zone_name": "Cell"
+    },
+    "North": {
+      "construction_name": "Envelope",
+      "number_of_vertices": 4,
+      "outside_boundary_condition": "Outdoors",
+      "sun_exposure": "SunExposed",
+      "surface_type": "Wall",
+      "vertices": [
+        {
+          "vertex_x_coordinate": 5,
+          "vertex_y_coordinate": 5,
+          "vertex_z_coordinate": 3
+        },
+        {
+          "vertex_x_coordinate": 5,
+          "vertex_y_coordinate": 5,
+          "vertex_z_coordinate": 0
+        },
+        {
+          "vertex_x_coordinate": 0,
+          "vertex_y_coordinate": 5,
+          "vertex_z_coordinate": 0
+        },
+        {
+          "vertex_x_coordinate": 0,
+          "vertex_y_coordinate": 5,
+          "vertex_z_coordinate": 3
+        }
+      ],
+      "wind_exposure": "WindExposed",
+      "zone_name": "Cell"
+    },
+    "Roof": {
+      "construction_name": "Envelope",
+      "number_of_vertices": 4,
+      "outside_boundary_condition": "Outdoors",
+      "sun_exposure": "SunExposed",
+      "surface_type": "Roof",
+      "vertices": [
+        {
+          "vertex_x_coordinate": 0,
+          "vertex_y_coordinate": 5,
+          "vertex_z_coordinate": 3
+        },
+        {
+          "vertex_x_coordinate": 0,
+          "vertex_y_coordinate": 0,
+          "vertex_z_coordinate": 3
+        },
+        {
+          "vertex_x_coordinate": 5,
+          "vertex_y_coordinate": 0,
+          "vertex_z_coordinate": 3
+        },
+        {
+          "vertex_x_coordinate": 5,
+          "vertex_y_coordinate": 5,
+          "vertex_z_coordinate": 3
+        }
+      ],
+      "wind_exposure": "WindExposed",
+      "zone_name": "Cell"
+    },
+    "South": {
+      "construction_name": "Envelope",
+      "number_of_vertices": 4,
+      "outside_boundary_condition": "Outdoors",
+      "sun_exposure": "SunExposed",
+      "surface_type": "Wall",
+      "vertices": [
+        {
+          "vertex_x_coordinate": 0,
+          "vertex_y_coordinate": 0,
+          "vertex_z_coordinate": 3
+        },
+        {
+          "vertex_x_coordinate": 0,
+          "vertex_y_coordinate": 0,
+          "vertex_z_coordinate": 0
+        },
+        {
+          "vertex_x_coordinate": 5,
+          "vertex_y_coordinate": 0,
+          "vertex_z_coordinate": 0
+        },
+        {
+          "vertex_x_coordinate": 5,
+          "vertex_y_coordinate": 0,
+          "vertex_z_coordinate": 3
+        }
+      ],
+      "wind_exposure": "WindExposed",
+      "zone_name": "Cell"
+    },
+    "West": {
+      "construction_name": "Envelope",
+      "number_of_vertices": 4,
+      "outside_boundary_condition": "Outdoors",
+      "sun_exposure": "SunExposed",
+      "surface_type": "Wall",
+      "vertices": [
+        {
+          "vertex_x_coordinate": 0,
+          "vertex_y_coordinate": 5,
+          "vertex_z_coordinate": 3
+        },
+        {
+          "vertex_x_coordinate": 0,
+          "vertex_y_coordinate": 5,
+          "vertex_z_coordinate": 0
+        },
+        {
+          "vertex_x_coordinate": 0,
+          "vertex_y_coordinate": 0,
+          "vertex_z_coordinate": 0
+        },
+        {
+          "vertex_x_coordinate": 0,
+          "vertex_y_coordinate": 0,
+          "vertex_z_coordinate": 3
+        }
+      ],
+      "wind_exposure": "WindExposed",
+      "zone_name": "Cell"
+    }
+  },
+  "Construction": {
+    "Envelope": {
+      "layer_2": "Concrete",
+      "outside_layer": "Insulation"
+    },
+    "Window": {
+      "outside_layer": "Glazing"
+    }
+  },
+  "FenestrationSurface:Detailed": {
+    "Equivalent glazing": {
+      "building_surface_name": "South",
+      "construction_name": "Window",
+      "number_of_vertices": 4,
+      "surface_type": "Window",
+      "vertex_1_x_coordinate": 1,
+      "vertex_1_y_coordinate": 0,
+      "vertex_1_z_coordinate": 2.5,
+      "vertex_2_x_coordinate": 1,
+      "vertex_2_y_coordinate": 0,
+      "vertex_2_z_coordinate": 0.5,
+      "vertex_3_x_coordinate": 4,
+      "vertex_3_y_coordinate": 0,
+      "vertex_3_z_coordinate": 0.5,
+      "vertex_4_x_coordinate": 4,
+      "vertex_4_y_coordinate": 0,
+      "vertex_4_z_coordinate": 2.5
+    }
+  },
+  "GlobalGeometryRules": {
+    "Geometry": {
+      "coordinate_system": "World",
+      "starting_vertex_position": "UpperLeftCorner",
+      "vertex_entry_direction": "Counterclockwise"
+    }
+  },
+  "HeatBalanceAlgorithm": {
+    "Heat balance": {
+      "algorithm": "ConductionTransferFunction"
+    }
+  },
+  "Material": {
+    "Concrete": {
+      "conductivity": 1.4,
+      "density": 2200,
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.6,
+      "specific_heat": 880,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.15,
+      "visible_absorptance": 0.6
+    },
+    "Gypsum": {
+      "conductivity": 0.16,
+      "density": 800,
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.6,
+      "specific_heat": 1090,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.0125,
+      "visible_absorptance": 0.6
+    },
+    "Insulation": {
+      "conductivity": 0.04,
+      "density": 35,
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.6,
+      "specific_heat": 1400,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.1,
+      "visible_absorptance": 0.6
+    }
+  },
+  "OtherEquipment": {
+    "Internal gains": {
+      "design_level": 100,
+      "design_level_calculation_method": "EquipmentLevel",
+      "fraction_latent": 0,
+      "fraction_lost": 0,
+      "fraction_radiant": 0.3,
+      "fuel_type": "None",
+      "schedule_name": "Always",
+      "zone_or_zonelist_or_space_or_spacelist_name": "Cell"
+    },
+    "Prescribed solar gains": {
+      "design_level": 1,
+      "design_level_calculation_method": "EquipmentLevel",
+      "fraction_latent": 0,
+      "fraction_lost": 0,
+      "fraction_radiant": 0.7,
+      "fuel_type": "None",
+      "schedule_name": "Prescribed solar",
+      "zone_or_zonelist_or_space_or_spacelist_name": "Cell"
+    }
+  },
+  "Output:Variable": {
+    "0": {
+      "key_value": "*",
+      "reporting_frequency": "Hourly",
+      "variable_name": "Zone Mean Air Temperature"
+    },
+    "1": {
+      "key_value": "*",
+      "reporting_frequency": "Hourly",
+      "variable_name": "Zone Operative Temperature"
+    },
+    "2": {
+      "key_value": "*",
+      "reporting_frequency": "Hourly",
+      "variable_name": "Zone Ideal Loads Zone Sensible Heating Energy"
+    },
+    "3": {
+      "key_value": "*",
+      "reporting_frequency": "Hourly",
+      "variable_name": "Zone Ideal Loads Zone Sensible Cooling Energy"
+    },
+    "4": {
+      "key_value": "*",
+      "reporting_frequency": "Hourly",
+      "variable_name": "Zone Ideal Loads Zone Sensible Heating Rate"
+    },
+    "5": {
+      "key_value": "*",
+      "reporting_frequency": "Hourly",
+      "variable_name": "Zone Ideal Loads Zone Sensible Cooling Rate"
+    },
+    "6": {
+      "key_value": "*",
+      "reporting_frequency": "Hourly",
+      "variable_name": "Zone Other Equipment Total Heating Energy"
+    },
+    "7": {
+      "key_value": "*",
+      "reporting_frequency": "Hourly",
+      "variable_name": "Surface Window Transmitted Solar Radiation Energy"
+    }
+  },
+  "OutputControl:Files": {
+    "Files": {
+      "output_csv": "Yes",
+      "output_eso": "No",
+      "output_mtr": "No"
+    }
+  },
+  "RunPeriod": {
+    "Annual": {
+      "begin_day_of_month": 1,
+      "begin_month": 1,
+      "begin_year": 2021,
+      "end_day_of_month": 31,
+      "end_month": 12,
+      "end_year": 2021,
+      "use_weather_file_daylight_saving_period": "No",
+      "use_weather_file_holidays_and_special_days": "No"
+    }
+  },
+  "Schedule:Constant": {
+    "Always": {
+      "hourly_value": 1,
+      "schedule_type_limits_name": "Any"
+    },
+    "Cooling": {
+      "hourly_value": 26,
+      "schedule_type_limits_name": "Any"
+    },
+    "Dual control": {
+      "hourly_value": 4,
+      "schedule_type_limits_name": "Any"
+    },
+    "Heating": {
+      "hourly_value": 20,
+      "schedule_type_limits_name": "Any"
+    }
+  },
+  "Schedule:File": {
+    "Prescribed solar": {
+      "adjust_schedule_for_daylight_savings": "No",
+      "column_number": 1,
+      "column_separator": "Comma",
+      "file_name": "/workspace/scratch/94a93cd685e7/r1_work/final_results/thermal/external__delft_3dbag__20260922/wall_06/lobe/gains.csv",
+      "interpolate_to_timestep": "No",
+      "minutes_per_item": 60,
+      "number_of_hours_of_data": 8760,
+      "rows_to_skip_at_top": 0,
+      "schedule_type_limits_name": "Any"
+    }
+  },
+  "ScheduleTypeLimits": {
+    "Any": {
+      "numeric_type": "Continuous"
+    }
+  },
+  "SimulationControl": {
+    "Control": {
+      "do_plant_sizing_calculation": "No",
+      "do_system_sizing_calculation": "No",
+      "do_zone_sizing_calculation": "No",
+      "run_simulation_for_sizing_periods": "No",
+      "run_simulation_for_weather_file_run_periods": "Yes"
+    }
+  },
+  "SurfaceConvectionAlgorithm:Inside": {
+    "Inside": {
+      "algorithm": "TARP"
+    }
+  },
+  "SurfaceConvectionAlgorithm:Outside": {
+    "Outside": {
+      "algorithm": "DOE-2"
+    }
+  },
+  "ThermostatSetpoint:DualSetpoint": {
+    "Dual": {
+      "cooling_setpoint_temperature_schedule_name": "Cooling",
+      "heating_setpoint_temperature_schedule_name": "Heating"
+    }
+  },
+  "Timestep": {
+    "Timestep": {
+      "number_of_timesteps_per_hour": 6
+    }
+  },
+  "Version": {
+    "Version": {
+      "version_identifier": "26.1"
+    }
+  },
+  "WindowMaterial:SimpleGlazingSystem": {
+    "Glazing": {
+      "solar_heat_gain_coefficient": 0.5,
+      "u_factor": 1.6,
+      "visible_transmittance": 0.6
+    }
+  },
+  "Zone": {
+    "Cell": {
+      "ceiling_height": 3,
+      "floor_area": 25,
+      "volume": 75
+    }
+  },
+  "ZoneControl:Thermostat": {
+    "Thermostat": {
+      "control_1_name": "Dual",
+      "control_1_object_type": "ThermostatSetpoint:DualSetpoint",
+      "control_type_schedule_name": "Dual control",
+      "zone_or_zonelist_name": "Cell"
+    }
+  },
+  "ZoneHVAC:EquipmentConnections": {
+    "Connections": {
+      "zone_air_inlet_node_or_nodelist_name": "Supply",
+      "zone_air_node_name": "Zone air",
+      "zone_conditioning_equipment_list_name": "Equipment",
+      "zone_name": "Cell",
+      "zone_return_air_node_or_nodelist_name": "Return"
+    }
+  },
+  "ZoneHVAC:EquipmentList": {
+    "Equipment": {
+      "equipment": [
+        {
+          "zone_equipment_cooling_sequence": 1,
+          "zone_equipment_heating_or_no_load_sequence": 1,
+          "zone_equipment_name": "Ideal loads",
+          "zone_equipment_object_type": "ZoneHVAC:IdealLoadsAirSystem"
+        }
+      ]
+    }
+  },
+  "ZoneHVAC:IdealLoadsAirSystem": {
+    "Ideal loads": {
+      "availability_schedule_name": "Always",
+      "cooling_limit": "NoLimit",
+      "dehumidification_control_type": "None",
+      "heat_recovery_type": "None",
+      "heating_limit": "NoLimit",
+      "humidification_control_type": "None",
+      "outdoor_air_economizer_type": "NoEconomizer",
+      "zone_supply_air_node_name": "Supply"
+    }
+  },
+  "ZoneInfiltration:DesignFlowRate": {
+    "Infiltration": {
+      "air_changes_per_hour": 0.5,
+      "constant_term_coefficient": 1,
+      "design_flow_rate_calculation_method": "AirChanges/Hour",
+      "schedule_name": "Always",
+      "zone_or_zonelist_or_space_or_spacelist_name": "Cell"
+    }
+  }
+}

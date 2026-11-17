@@ -1,0 +1,39 @@
+{
+  "area_m2": 184.16738793544133,
+  "building": 22,
+  "candidate_casters": 342,
+  "center": [
+    436.8188914644357,
+    362.42870745788395,
+    -1.4254245830980412
+  ],
+  "columns": [
+    "raw",
+    "proxy",
+    "radius",
+    "topk",
+    "exact_marginal_heuristic_union",
+    "lobe_float",
+    "lobe_quantized"
+  ],
+  "elapsed_s": 0.1294891239995195,
+  "fitting_s": 0.6557449009869742,
+  "kind": "wall",
+  "label": "wall_02",
+  "normal": [
+    0.26840380059894314,
+    -0.9633064931910523,
+    0.0
+  ],
+  "positive_lobes": 160,
+  "prepare_proxy_s": 0.004257694999978412,
+  "prepare_raw_s": 0.006472060998930829,
+  "proxy_casters": 801,
+  "raw_casters": 1082,
+  "raw_median_query_s": 3.268799991928972e-05,
+  "retained_casters": 160,
+  "scene": "validation__suburban__229",
+  "sid": 165,
+  "split": "validation",
+  "terrain": "suburban"
+}

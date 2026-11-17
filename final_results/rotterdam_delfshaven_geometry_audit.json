@@ -1,0 +1,86 @@
+{
+  "accepted_area_m2": 485407.10140369635,
+  "building_count": 853,
+  "counts": {
+    "accepted_source_surfaces": 13977,
+    "degenerate_omitted": 642,
+    "ground_or_other_omitted": 853,
+    "invalid_ring_omitted": 10,
+    "nonconvex_decomposed": 881,
+    "rings_with_duplicate_vertices": 651,
+    "roof_normal_reoriented": 3,
+    "source_surfaces": 15482
+  },
+  "dataset": "rotterdam_delfshaven",
+  "extent_local": [
+    0.0,
+    0.0,
+    0.0,
+    1044.5589999999938,
+    649.505999999994,
+    41.158
+  ],
+  "lod": "2",
+  "origin_m": [
+    90409.32,
+    435440.44,
+    0.0
+  ],
+  "output_convex_faces": 15503,
+  "planarity_max_m": 0.00120359138660296,
+  "planarity_p95_m": 0.00010756879189470583,
+  "preparation_s": 6.762576326000271,
+  "rejected": [
+    {
+      "object": "{00EF479B-742E-4387-9E94-9EA65B495E15}",
+      "reason": "invalid_ring",
+      "surface": 1
+    },
+    {
+      "object": "{0A7BEFAE-4BE8-47AC-AE28-FEE1F7CDFD28}",
+      "reason": "invalid_ring",
+      "surface": 5
+    },
+    {
+      "object": "{0C3309A9-671F-4F25-8321-5EDF03882E91}",
+      "reason": "invalid_ring",
+      "surface": 45
+    },
+    {
+      "object": "{2283744B-FFAF-4663-8A11-7B813CC4738A}",
+      "reason": "invalid_ring",
+      "surface": 0
+    },
+    {
+      "object": "{5A60303F-AA2C-4D9A-8A45-98BAABF7678F}",
+      "reason": "invalid_ring",
+      "surface": 58
+    },
+    {
+      "object": "{A3A3E901-150C-43F9-9EE2-5058469F9357}",
+      "reason": "invalid_ring",
+      "surface": 1
+    },
+    {
+      "object": "{CE491C51-2E97-4464-85D1-799109999BBB}",
+      "reason": "invalid_ring",
+      "surface": 1
+    },
+    {
+      "object": "{D37322F4-14BC-4E07-84AC-176B9AC58E48}",
+      "reason": "invalid_ring",
+      "surface": 1
+    },
+    {
+      "object": "{F4B0DABD-1FBB-481E-96E1-D0D7772E1415}",
+      "reason": "invalid_ring",
+      "surface": 1
+    },
+    {
+      "object": "{F875A2C5-9708-4D47-B802-464037FE543D}",
+      "reason": "invalid_ring",
+      "surface": 7
+    }
+  ],
+  "sha256": "958460c670b4cb85a9159d1e5e566905fba8812864f64b554ecad38333badcf6"
+}

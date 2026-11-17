@@ -1,0 +1,39 @@
+{
+  "area_m2": 3.798444334196575,
+  "building": 194,
+  "candidate_casters": 6897,
+  "center": [
+    485.9890000000014,
+    328.72299999999814,
+    12.965
+  ],
+  "columns": [
+    "raw",
+    "proxy",
+    "radius",
+    "topk",
+    "exact_marginal_heuristic_union",
+    "lobe_float",
+    "lobe_quantized"
+  ],
+  "elapsed_s": 3.99052268000014,
+  "fitting_s": 2.367170880210324,
+  "kind": "wall",
+  "label": "wall_31",
+  "normal": [
+    -0.9752413551646752,
+    0.22114316443554755,
+    0.0
+  ],
+  "positive_lobes": 160,
+  "prepare_proxy_s": 0.09213644500050577,
+  "prepare_raw_s": 0.09213644500050577,
+  "proxy_casters": 15497,
+  "raw_casters": 15497,
+  "raw_median_query_s": 0.0005187074984860374,
+  "retained_casters": 160,
+  "scene": "external__rotterdam_delfshaven__20260922",
+  "sid": 3868,
+  "split": "external",
+  "terrain": "rotterdam_delfshaven"
+}

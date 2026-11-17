@@ -1,0 +1,79 @@
+{
+  "accepted_area_m2": 920196.0483909227,
+  "building_count": 1110,
+  "counts": {
+    "accepted_source_surfaces": 34350,
+    "degenerate_omitted": 21,
+    "ground_or_other_omitted": 1111,
+    "invalid_ring_omitted": 7,
+    "nonconvex_decomposed": 3166,
+    "nonplanar_over_20mm_omitted": 1,
+    "rings_with_duplicate_vertices": 10,
+    "source_surfaces": 35490,
+    "surfaces_with_holes_triangulated": 128
+  },
+  "dataset": "delft_3dbag",
+  "extent_local": [
+    0.0,
+    0.0,
+    -2.4619980000000012,
+    1173.676999999996,
+    1178.4530000000377,
+    94.801002
+  ],
+  "lod": "2.2",
+  "origin_m": [
+    84501.553625,
+    445805.024,
+    0.0
+  ],
+  "output_convex_faces": 44595,
+  "planarity_max_m": 3.548803358315914,
+  "planarity_p95_m": 0.00040036014177449974,
+  "preparation_s": 18.465171739999278,
+  "rejected": [
+    {
+      "object": "NL.IMBAG.Pand.0503100000004396-0",
+      "reason": "invalid_ring",
+      "surface": 176
+    },
+    {
+      "object": "NL.IMBAG.Pand.0503100000019275-0",
+      "reason": "invalid_ring",
+      "surface": 865
+    },
+    {
+      "object": "NL.IMBAG.Pand.0503100000019612-0",
+      "reason": "invalid_ring",
+      "surface": 107
+    },
+    {
+      "object": "NL.IMBAG.Pand.0503100000019612-0",
+      "reason": "invalid_ring",
+      "surface": 115
+    },
+    {
+      "area": 3.789836266464104,
+      "deviation_m": 0.9717689011873585,
+      "object": "NL.IMBAG.Pand.0503100000025026-0",
+      "reason": "planarity",
+      "surface": 614
+    },
+    {
+      "object": "NL.IMBAG.Pand.0503100000025026-0",
+      "reason": "invalid_ring",
+      "surface": 667
+    },
+    {
+      "object": "NL.IMBAG.Pand.0503100000025517-0",
+      "reason": "invalid_ring",
+      "surface": 510
+    },
+    {
+      "object": "NL.IMBAG.Pand.0503100000031902-0",
+      "reason": "invalid_ring",
+      "surface": 1540
+    }
+  ],
+  "sha256": "2bb5d22ae2cbfe2096041e3a79b3e826f43d3a8c9824eeb019feab4e0a2742ba"
+}

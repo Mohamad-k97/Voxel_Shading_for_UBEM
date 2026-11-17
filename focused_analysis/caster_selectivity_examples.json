@@ -1,0 +1,36 @@
+[
+  {
+    "patch": "delft_3dbag",
+    "scene": "external__delft_3dbag__20260922",
+    "receiver": "wall_00",
+    "receiver_sid": 9219,
+    "caster_sid": 9132,
+    "retained_before": 160,
+    "retained_after": 159,
+    "azimuth_deg": 12.5,
+    "elevation_deg": 27.5,
+    "original_estimate": 0.6255948881019608,
+    "removed_caster_marginal": 0.46503927886244434,
+    "estimate_after_removal": 0.46274584604315994,
+    "maximum_estimated_change": 0.1628490420588009,
+    "original_prediction_reproduced_max_difference": 1.1102230246251565e-16,
+    "scope": "Illustration of existing archive operations; no new geometric accuracy or timing claim."
+  },
+  {
+    "patch": "rotterdam_delfshaven",
+    "scene": "external__rotterdam_delfshaven__20260922",
+    "receiver": "wall_00",
+    "receiver_sid": 9552,
+    "caster_sid": 4126,
+    "retained_before": 160,
+    "retained_after": 159,
+    "azimuth_deg": 102.5,
+    "elevation_deg": 7.5,
+    "original_estimate": 0.9825789426246191,
+    "removed_caster_marginal": 0.9825789426246191,
+    "estimate_after_removal": -0.0,
+    "maximum_estimated_change": 0.9825789426246191,
+    "original_prediction_reproduced_max_difference": 1.1102230246251565e-16,
+    "scope": "Illustration of existing archive operations; no new geometric accuracy or timing claim."
+  }
+]

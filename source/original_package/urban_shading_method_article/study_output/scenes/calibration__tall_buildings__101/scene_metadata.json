@@ -1,0 +1,23 @@
+{
+  "area_size_m": 250.0,
+  "created_at": "2026-07-24T11:13:09Z",
+  "elapsed_s": 3.5436639320000722,
+  "n_buildings": 28,
+  "n_scene_polygons": 281,
+  "proxy_n_casters": 121,
+  "proxy_n_receivers": 182,
+  "raw_n_casters": 260,
+  "raw_n_receivers": 182,
+  "receiver_kinds": {
+    "roof": "flat_roof",
+    "wall": "wall"
+  },
+  "receiver_sids": {
+    "roof": 143,
+    "wall": 115
+  },
+  "seed": 101,
+  "split": "calibration",
+  "status": "complete",
+  "terrain": "tall_buildings"
+}

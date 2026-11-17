@@ -1,0 +1,24 @@
+{
+  "inputs": [
+    {
+      "file": "data/3dbag_9-284-556.city.json",
+      "source_catalogue_or_query_url": "https://www.cityjson.org/datasets/",
+      "sha256": "2bb5d22ae2cbfe2096041e3a79b3e826f43d3a8c9824eeb019feab4e0a2742ba"
+    },
+    {
+      "file": "data/rotterdam_delfshaven.city.json",
+      "source_catalogue_or_query_url": "https://www.cityjson.org/datasets/",
+      "sha256": "958460c670b4cb85a9159d1e5e566905fba8812864f64b554ecad38333badcf6"
+    },
+    {
+      "file": "data/rotterdam_pvgis_tmy.epw",
+      "source_catalogue_or_query_url": "https://re.jrc.ec.europa.eu/api/v5_3/tmy?lat=51.9225&lon=4.4792&outputformat=epw",
+      "sha256": "7b7c6fd98aa48a99e835fc883ef7de12ef5e3d92f7c941184a25c25e305cc2c3"
+    }
+  ],
+  "geometry_source_names": [
+    "9-284-556.city.json",
+    "3-20-DELFSHAVEN.city.json"
+  ],
+  "geometry_catalogue_reference": "TU Delft 3D Geoinformation. CityJSON Datasets. Source snapshots used for the study."
+}

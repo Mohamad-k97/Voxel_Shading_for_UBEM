@@ -1,0 +1,39 @@
+{
+  "area_m2": 97.8440938968578,
+  "building": 79,
+  "candidate_casters": 411,
+  "center": [
+    86.85846404816925,
+    179.31820018834372,
+    4.874348763017604
+  ],
+  "columns": [
+    "raw",
+    "proxy",
+    "radius",
+    "topk",
+    "exact_marginal_heuristic_union",
+    "lobe_float",
+    "lobe_quantized"
+  ],
+  "elapsed_s": 0.10882308300278964,
+  "fitting_s": 0.5745015409956977,
+  "kind": "wall",
+  "label": "wall_06",
+  "normal": [
+    -0.5776483601358341,
+    0.8162857171556915,
+    0.0
+  ],
+  "positive_lobes": 129,
+  "prepare_proxy_s": 0.002888181003072532,
+  "prepare_raw_s": 0.004179640000074869,
+  "proxy_casters": 459,
+  "raw_casters": 669,
+  "raw_median_query_s": 1.633400097489357e-05,
+  "retained_casters": 160,
+  "scene": "validation__small_town__227",
+  "sid": 536,
+  "split": "validation",
+  "terrain": "small_town"
+}

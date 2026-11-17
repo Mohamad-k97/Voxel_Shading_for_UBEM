@@ -1,0 +1,11 @@
+compressed_bytes,compressed_bytes_per_receiver,payload_bytes,receivers,scene
+9621,601.3125,38752,16,validation__horizontal_city__223
+12179,761.1875,38752,16,validation__horizontal_city__311
+20610,1288.125,38752,16,validation__small_town__227
+19744,1234.0,38752,16,validation__small_town__313
+20134,1258.375,38752,16,validation__suburban__229
+21612,1350.75,38752,16,validation__suburban__317
+13098,818.625,38752,16,validation__tall_buildings__211
+13776,861.0,38752,16,validation__tall_buildings__307
+88018,1375.28125,155008,64,external__delft_3dbag__20260922
+88997,1390.578125,155008,64,external__rotterdam_delfshaven__20260922

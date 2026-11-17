@@ -1,0 +1,23 @@
+{
+  "area_size_m": 350.0,
+  "created_at": "2026-07-24T11:15:30Z",
+  "elapsed_s": 5.253321453999888,
+  "n_buildings": 94,
+  "n_scene_polygons": 1143,
+  "proxy_n_casters": 463,
+  "proxy_n_receivers": 675,
+  "raw_n_casters": 1101,
+  "raw_n_receivers": 675,
+  "receiver_kinds": {
+    "roof": "flat_roof",
+    "wall": "wall"
+  },
+  "receiver_sids": {
+    "roof": 463,
+    "wall": 456
+  },
+  "seed": 227,
+  "split": "validation",
+  "status": "complete",
+  "terrain": "small_town"
+}

@@ -1,0 +1,23 @@
+{
+  "area_size_m": 500.0,
+  "created_at": "2026-07-24T11:16:32Z",
+  "elapsed_s": 8.3644089229997,
+  "n_buildings": 153,
+  "n_scene_polygons": 2678,
+  "proxy_n_casters": 943,
+  "proxy_n_receivers": 1271,
+  "raw_n_casters": 2591,
+  "raw_n_receivers": 1271,
+  "receiver_kinds": {
+    "roof": "flat_roof",
+    "wall": "wall"
+  },
+  "receiver_sids": {
+    "roof": 418,
+    "wall": 1189
+  },
+  "seed": 317,
+  "split": "validation",
+  "status": "complete",
+  "terrain": "suburban"
+}

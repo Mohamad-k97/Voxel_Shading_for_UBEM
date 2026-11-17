@@ -1,0 +1,39 @@
+{
+  "area_m2": 4.079042187527063,
+  "building": 45,
+  "candidate_casters": 7915,
+  "center": [
+    355.72499999999854,
+    537.7252500000322,
+    3.2422519999999952
+  ],
+  "columns": [
+    "raw",
+    "proxy",
+    "radius",
+    "topk",
+    "exact_marginal_heuristic_union",
+    "lobe_float",
+    "lobe_quantized"
+  ],
+  "elapsed_s": 27.31845357900238,
+  "fitting_s": 22.83042490105072,
+  "kind": "flat_roof",
+  "label": "roof_12",
+  "normal": [
+    -0.01366889061281632,
+    0.020209616822867038,
+    0.9997023221025786
+  ],
+  "positive_lobes": 160,
+  "prepare_proxy_s": 0.3402322779984388,
+  "prepare_raw_s": 0.3402322779984388,
+  "proxy_casters": 44568,
+  "raw_casters": 44568,
+  "raw_median_query_s": 0.0022083859985286836,
+  "retained_casters": 160,
+  "scene": "external__delft_3dbag__20260922",
+  "sid": 3639,
+  "split": "external",
+  "terrain": "delft_3dbag"
+}

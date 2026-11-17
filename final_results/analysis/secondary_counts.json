@@ -1,0 +1,5 @@
+{
+  "comparison_receivers": 32,
+  "hourly": 64,
+  "thermal_pairs": 32
+}

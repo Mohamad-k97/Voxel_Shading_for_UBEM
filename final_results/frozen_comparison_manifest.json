@@ -1,0 +1,134 @@
+{
+  "created": "2026-09-22T10:30:24Z",
+  "receivers": [
+    {
+      "label": "wall_00",
+      "scene": "validation__horizontal_city__223"
+    },
+    {
+      "label": "roof_00",
+      "scene": "validation__horizontal_city__223"
+    },
+    {
+      "label": "wall_00",
+      "scene": "validation__horizontal_city__311"
+    },
+    {
+      "label": "roof_00",
+      "scene": "validation__horizontal_city__311"
+    },
+    {
+      "label": "wall_00",
+      "scene": "validation__small_town__227"
+    },
+    {
+      "label": "roof_00",
+      "scene": "validation__small_town__227"
+    },
+    {
+      "label": "wall_00",
+      "scene": "validation__small_town__313"
+    },
+    {
+      "label": "roof_00",
+      "scene": "validation__small_town__313"
+    },
+    {
+      "label": "wall_00",
+      "scene": "validation__suburban__229"
+    },
+    {
+      "label": "roof_00",
+      "scene": "validation__suburban__229"
+    },
+    {
+      "label": "wall_00",
+      "scene": "validation__suburban__317"
+    },
+    {
+      "label": "roof_00",
+      "scene": "validation__suburban__317"
+    },
+    {
+      "label": "wall_00",
+      "scene": "validation__tall_buildings__211"
+    },
+    {
+      "label": "roof_00",
+      "scene": "validation__tall_buildings__211"
+    },
+    {
+      "label": "wall_00",
+      "scene": "validation__tall_buildings__307"
+    },
+    {
+      "label": "roof_00",
+      "scene": "validation__tall_buildings__307"
+    },
+    {
+      "label": "wall_00",
+      "scene": "external__delft_3dbag__20260922"
+    },
+    {
+      "label": "wall_01",
+      "scene": "external__delft_3dbag__20260922"
+    },
+    {
+      "label": "wall_02",
+      "scene": "external__delft_3dbag__20260922"
+    },
+    {
+      "label": "wall_03",
+      "scene": "external__delft_3dbag__20260922"
+    },
+    {
+      "label": "roof_00",
+      "scene": "external__delft_3dbag__20260922"
+    },
+    {
+      "label": "roof_01",
+      "scene": "external__delft_3dbag__20260922"
+    },
+    {
+      "label": "roof_02",
+      "scene": "external__delft_3dbag__20260922"
+    },
+    {
+      "label": "roof_03",
+      "scene": "external__delft_3dbag__20260922"
+    },
+    {
+      "label": "wall_00",
+      "scene": "external__rotterdam_delfshaven__20260922"
+    },
+    {
+      "label": "wall_01",
+      "scene": "external__rotterdam_delfshaven__20260922"
+    },
+    {
+      "label": "wall_02",
+      "scene": "external__rotterdam_delfshaven__20260922"
+    },
+    {
+      "label": "wall_03",
+      "scene": "external__rotterdam_delfshaven__20260922"
+    },
+    {
+      "label": "roof_00",
+      "scene": "external__rotterdam_delfshaven__20260922"
+    },
+    {
+      "label": "roof_01",
+      "scene": "external__rotterdam_delfshaven__20260922"
+    },
+    {
+      "label": "roof_02",
+      "scene": "external__rotterdam_delfshaven__20260922"
+    },
+    {
+      "label": "roof_03",
+      "scene": "external__rotterdam_delfshaven__20260922"
+    }
+  ],
+  "rule": "first labelled receivers in geometry-stratified fixed sample; no outcome filtering"
+}

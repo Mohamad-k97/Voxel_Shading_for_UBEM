@@ -1,0 +1,21 @@
+{
+  "active_bias": NaN,
+  "active_mae": NaN,
+  "active_max": NaN,
+  "active_n": 0,
+  "active_p95": NaN,
+  "active_rmse": NaN,
+  "all_bias": 0.0,
+  "all_hours": 8760,
+  "all_mae": 0.0,
+  "all_max": 0.0,
+  "all_n": 1930,
+  "all_p95": 0.0,
+  "all_rmse": 0.0,
+  "elapsed_s": 0.03623063700069906,
+  "excess_shading_mean": 0.0,
+  "false_shade_005_rate": 0.0,
+  "front_daylight_queries": 1930,
+  "missed_shade_005_rate": 0.0,
+  "missed_shading_mean": 0.0
+}

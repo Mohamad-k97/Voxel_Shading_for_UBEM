@@ -1,0 +1,11 @@
+additional_proxy_s,proxy_building_casters,raw_building_casters,receivers,scene,split
+0.10438345699731144,149,230,16,validation__horizontal_city__223,validation
+0.19165043999964837,169,237,16,validation__horizontal_city__311,validation
+0.31667855600244366,463,675,16,validation__small_town__227,validation
+0.297510410000541,485,686,16,validation__small_town__313,validation
+0.6776251419978507,807,1090,16,validation__suburban__229,validation
+0.6670290580004803,943,1271,16,validation__suburban__317,validation
+0.11069190499983961,114,183,16,validation__tall_buildings__211,validation
+0.09890908000306808,121,188,16,validation__tall_buildings__307,validation
+0.0,44595,44595,64,external__delft_3dbag__20260922,external
+0.0,15503,15503,64,external__rotterdam_delfshaven__20260922,external

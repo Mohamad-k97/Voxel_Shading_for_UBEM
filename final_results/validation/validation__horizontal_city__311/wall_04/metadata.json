@@ -1,0 +1,39 @@
+{
+  "area_m2": 390.90287168400533,
+  "building": 8,
+  "candidate_casters": 141,
+  "center": [
+    268.35154725022926,
+    277.3554367267691,
+    5.214165794507962
+  ],
+  "columns": [
+    "raw",
+    "proxy",
+    "radius",
+    "topk",
+    "exact_marginal_heuristic_union",
+    "lobe_float",
+    "lobe_quantized"
+  ],
+  "elapsed_s": 0.10568852800133754,
+  "fitting_s": 0.40095618099803687,
+  "kind": "wall",
+  "label": "wall_04",
+  "normal": [
+    -0.1500447666242206,
+    -0.988679203790938,
+    0.0
+  ],
+  "positive_lobes": 93,
+  "prepare_proxy_s": 0.0011097110000264365,
+  "prepare_raw_s": 0.0017771279999578837,
+  "proxy_casters": 158,
+  "raw_casters": 224,
+  "raw_median_query_s": 1.2468997738324106e-05,
+  "retained_casters": 141,
+  "scene": "validation__horizontal_city__311",
+  "sid": 57,
+  "split": "validation",
+  "terrain": "horizontal_city"
+}

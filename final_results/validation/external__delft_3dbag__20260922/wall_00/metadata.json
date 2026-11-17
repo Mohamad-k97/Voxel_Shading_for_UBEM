@@ -1,0 +1,39 @@
+{
+  "area_m2": 4.471051455678691,
+  "building": 349,
+  "candidate_casters": 13972,
+  "center": [
+    488.0454999999929,
+    893.1880000000237,
+    3.281251999999995
+  ],
+  "columns": [
+    "raw",
+    "proxy",
+    "radius",
+    "topk",
+    "exact_marginal_heuristic_union",
+    "lobe_float",
+    "lobe_quantized"
+  ],
+  "elapsed_s": 0.9874762099971122,
+  "fitting_s": 27.395493948044532,
+  "kind": "wall",
+  "label": "wall_00",
+  "normal": [
+    0.5353814474550402,
+    0.8446103869364536,
+    0.0
+  ],
+  "positive_lobes": 160,
+  "prepare_proxy_s": 0.37321372299993527,
+  "prepare_raw_s": 0.37321372299993527,
+  "proxy_casters": 44567,
+  "raw_casters": 44567,
+  "raw_median_query_s": 0.000729769499230315,
+  "retained_casters": 160,
+  "scene": "external__delft_3dbag__20260922",
+  "sid": 9219,
+  "split": "external",
+  "terrain": "delft_3dbag"
+}

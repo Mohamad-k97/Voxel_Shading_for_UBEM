@@ -1,0 +1,21 @@
+{
+  "active_bias": -0.058452179868229606,
+  "active_mae": 0.16338203607823676,
+  "active_max": 1.0,
+  "active_n": 250,
+  "active_p95": 0.8030386740217543,
+  "active_rmse": 0.29417362702055105,
+  "all_bias": -0.002688880322138694,
+  "all_hours": 8760,
+  "all_mae": 0.01870045003243015,
+  "all_max": 1.0,
+  "all_n": 2593,
+  "all_p95": 0.07155650940888038,
+  "all_rmse": 0.09937055521925589,
+  "elapsed_s": 5.716258499996911,
+  "excess_shading_mean": 0.008005784855145725,
+  "false_shade_005_rate": 0.008098727342846125,
+  "front_daylight_queries": 2593,
+  "missed_shade_005_rate": 0.009641342074816815,
+  "missed_shading_mean": 0.01069466517728442
+}
